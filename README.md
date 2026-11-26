@@ -24,7 +24,7 @@ Com Docker (ex.: EC2 atrás do nginx-proxy):
 
 ```bash
 docker build -t taylo-codigo-barras .
-docker run -d -p 3000:3000 --name taylo-codigo-barras taylo-codigo-barras
+docker run -d -p 3010:3010 --name taylo-codigo-barras taylo-codigo-barras
 # com nginx-proxy: acrescente -e VIRTUAL_HOST=... -e VIRTUAL_PORT=3000 e a rede do proxy
 ```
 
